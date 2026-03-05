@@ -228,6 +228,8 @@
   - type: Tag
     tags:
     - Write
+    - Knife # Coyote
+    - KitchenKnife  # Coyote
   - type: Contraband # Frontier
     hideValues: true # Frontier
 
