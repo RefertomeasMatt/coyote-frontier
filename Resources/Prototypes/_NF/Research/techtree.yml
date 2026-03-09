@@ -1412,11 +1412,11 @@
   entityIcon: AutopilotServer
   discipline: NFEngineering
   tier: 1
-  cost: 7500
+  cost: 10000
   recipeUnlocks:
   - AutopilotServerCircuitboard
   technologyPrerequisites:
-  - NFShuttlecraftThrust
+  - NFShuttlecraftThrustSmall
   position: 3, 32
 # Wayfarer Autopilot: end
 
