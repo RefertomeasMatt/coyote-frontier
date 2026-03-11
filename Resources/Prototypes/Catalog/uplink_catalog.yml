@@ -562,7 +562,7 @@
   id: UplinkEstocAmmo
   name: uplink-estoc-ammo-name
   description: uplink-estoc-ammo-desc
-  productEntity: MagazineRifle
+  productEntity: MagazineRifle # Frontier: MagazineRifle<NFMagazineRifle20
   cost:
     Telecrystal: 2
   categories:
