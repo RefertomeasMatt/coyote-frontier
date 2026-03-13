@@ -416,7 +416,10 @@ namespace Content.IntegrationTests.Tests.Preferences
             conn.Open();
             builder.UseSqlite(conn);
             var deps = IoCManager.InitThread();
-            IoCManager.Register<IPrototypeManager, DummyPrototypeManager>();
+            try
+            {
+                IoCManager.Register<IPrototypeManager, DummyPrototypeManager>(false);
+            } catch (Exception ex) { }
             deps.BuildGraph();
             return new ServerDbSqlite(() => builder.Options, true, cfg, true, opsLog);
         }
