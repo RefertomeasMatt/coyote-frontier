@@ -1063,6 +1063,7 @@
   cost: 2500
   recipeUnlocks:
   - PlantBagOfHolding
+  - BluespaceTrashBag # Coyote
   prerequisiteLineType: Diagonal
   technologyPrerequisites:
   - NFAdvancedHydroponicsEquipment
@@ -1403,6 +1404,21 @@
   technologyPrerequisites:
   - NFShuttlecraftThrust
   position: 2, 32
+
+# Wayfarer Autopilot: begin
+- type: technology 
+  id: WFAutopilotServer
+  name: wf-research-technology-autopilot-server
+  entityIcon: AutopilotServer
+  discipline: NFEngineering
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - AutopilotServerCircuitboard
+  technologyPrerequisites:
+  - NFShuttlecraftThrustSmall
+  position: 3, 32
+# Wayfarer Autopilot: end
 
 # region Atmospherics
 

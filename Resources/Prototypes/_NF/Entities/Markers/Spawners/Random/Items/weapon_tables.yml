@@ -256,6 +256,7 @@
       - id: WeaponCaseLongVulcanExpedition
       - id: WeaponCaseLongBulldog
       - id: WeaponCaseLongEnforcerExpedition
+      - id: WeaponCaseLongEstocExpedition
       - id: WeaponCaseShortAntiqueLaserExpedition
       - id: WeaponCaseShortAdvancedLaserExpedition
       - id: WeaponCaseLongLaserCarbineExpedition
@@ -279,6 +280,7 @@
       - id: WeaponCaseLongEnergyGunExpedition
       - id: WeaponCaseLongLaserCannonExpedition
       - id: WeaponCaseHeavyAsmgtExpeditions
+      - id: WeaponCaseLongPrototypePulseRifleExpedition # Coyote: Re-add to loot tables
       - id: WeaponCaseLongHristovExpedition #Coyote extra trash drop.
 
 # region explosives

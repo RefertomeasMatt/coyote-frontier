@@ -109,6 +109,7 @@
   - MiniStationAnchorCircuitboard
   - SmallThrusterMachineCircuitboard
   - SmallGyroscopeMachineCircuitboard
+  - AutopilotServerCircuitboard # Wayfarer
   # AdvancedAtmospherics
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
@@ -151,6 +152,8 @@
   recipes:
   # MeatManipulation
   - BiomassReclaimerMachineCircuitboard
+  # SmartStorageRefrigeration
+  - SmartFridgeCircuitboard #Coyote sector
   # BiochemicalStasis
   - StasisBedMachineCircuitboard
   - CryoPodMachineCircuitboard
@@ -367,6 +370,8 @@
   # MeatManipulation
   - FatExtractorMachineCircuitboard
   - BiogeneratorMachineCircuitboard
+  # SmartStorageRefrigeration
+  - SmartFridgeCircuitboard
   # IndustrialCutter
   - CutterMachineCircuitboard
   # FauxAstroTiles
@@ -377,6 +382,7 @@
   - FauxTileAstroSnow
   - FauxTileAstroAsteroidSand
   # AdvancedCleaning
+  - BluespaceTrashBag
   - AdvMopItem
   - MegaSprayBottle
   - ReinforcedJug
